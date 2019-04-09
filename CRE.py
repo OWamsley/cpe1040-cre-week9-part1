@@ -13,6 +13,16 @@ stage = 0
 def displayBit():
     display.scroll("good")
 
+
+def binary_to_unsigned():
+    unsigned = 0
+    y = 0
+    for i in range(31, -1, -1):
+        unsigned += (binaryString[i] * (2**y))
+        y = y + 1
+    print(unsigned)
+
+
 def changeBit(x, x_axis, y_axis, binaryString, screen):
     z = binaryString[x]
     if screen == 0:
