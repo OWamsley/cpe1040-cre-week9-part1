@@ -62,6 +62,9 @@ def binary_to_float():
     print(float_value)
 
 
+def binary_to_ascii():
+
+
 binary_to_unsigned()
 binary_to_signed()
 binary_to_float()
